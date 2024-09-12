@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Static Interactive Resume</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="resume-container">
+        <!-- left section -->
+         <div class="left-section">
+            <img src="img.png" alt="Profile Picture" class="profile-picture">
+            <!-- create id to access specific element -->
+            <section id="objective">
+                <h3 style="color:white;">Career Objective</h3>
+                <p style="text-align: justify; hyphens: auto;">To secure an employment opportunity with a progressive organisation,
+                    where I can utilize my professional skills and knowledge to the maximum add value in the growth of the organisation</p>
+            </section>
+
+            <section id="certification">
+                <h3 style="color:white;">Certifications</h3>
+                <p><b>Artificial Intelligence, Web 3.0 & Metaverse</b> From Governor House Karachi (Ongoing)</p>
+            </section>
+
+         </div>
+
+         <!-- right section -->
+          <div class="right-section">
+            <h1>Static Interactive Resume</h1>
+            <!-- personal information -->
+             <section id="personal-info">
+                <h3>Personal Information</h3>
+                <p><b>Name:</b> Rimsha Aleem</p>
+                <p><b>Phone:</b> 12345-678900</p>
+                <p><b>Email:</b> <a href="mailto:xyz@gmail.com">xyz@gmail.com</a></p>
+                <!-- <p><b>LinkedIn:</b> <a href="https://www.linkedin.com/in/rimsha-aleem-b14062204" target="_blank"><www.LinkedIn.com></a></p> -->
+             </section>
+
+              <!-- education section -->
+           <section id="education">
+            <h3>Education</h3>
+            <p><b>Bachelors:</b> XYZ University Karachi</p>
+            <p><b>Intermediate:</b> XYZ College Karachi</p>
+            <p><b>Matriculation:</b> XYZ School Karacho</p>
+           </section>
+
+
+            <!-- skills section -->
+            <section id="skills">
+                <h3>Skills</h3>
+                <ul>
+                    <li>Wordpress</li>
+                    <li>UI/UX Design</li>
+                    <li>Javascript</li>
+                    <li>Typescript</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>MS Office</li>
+                </ul>
+            </section>
+
+            <!-- Work experience section -->
+            <section id="work-experience">
+                <h3>Work Experience</h3>
+                <p><b>Company:</b> ABC Pvt Ltd</p>
+                <p><b>Role:</b> Front-end Developer</p>
+             </section>
+
+             <!-- button to toggle skills section -->
+              <button id="toggle-skills"><b>Hide/Show Skills</b></button>
+
+          </div>
+
+        </div>
+
+        <script src="script.js"></script>
+</body>
+</html>
